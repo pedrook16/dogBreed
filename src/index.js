@@ -14,7 +14,6 @@ export default function Index() {
     <NavigationContainer>
       <Provider store={store}>
         <PersistGate persistor={persistor}>
-          <StatusBar barStyle="light-content" backgroundColor="#FFF" />
           <App />
         </PersistGate>
       </Provider>
