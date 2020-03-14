@@ -11,12 +11,13 @@ import App from './App';
 
 export default function Index() {
   return (
-    <NavigationContainer>
-      <Provider store={store}>
+    <Provider store={store}>
+      <NavigationContainer>
         <PersistGate persistor={persistor}>
+          <StatusBar barStyle="light-content" backgroundColor="#FFF" />
           <App />
         </PersistGate>
-      </Provider>
-    </NavigationContainer>
+      </NavigationContainer>
+    </Provider>
   );
 }

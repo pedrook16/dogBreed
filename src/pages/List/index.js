@@ -1,18 +1,11 @@
 import React from 'react';
-import {useDispatch} from 'react-redux';
-
 import Background from '~/components/Background';
-
-import {dogRequest} from '~/store/modules/DogBreed/actions';
 
 import {Container, Content, ContentDog, BreedText} from './styles';
 
 export default function List({navigation}) {
-  const dispach = useDispatch();
-
   function handleBreed(breed) {
-    dispach(dogRequest(breed));
-    navigation.navigate('ListDogs');
+    navigation.navigate('ListDogs', breed);
   }
 
   return (
