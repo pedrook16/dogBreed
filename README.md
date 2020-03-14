@@ -39,10 +39,6 @@ This app features all the latest tools and practices in web development!
 - 💖 **Lint** — ESlint/Prettier/Editor Config
 
 
-## Preview
-
-![Preview](.github/tela.gif)
-
 ## :memo: License
 This project is under the MIT license. See the [LICENSE](https://github.com/douglasporto/meetapp-gostack/blob/master/LICENSE) for more information.
 
